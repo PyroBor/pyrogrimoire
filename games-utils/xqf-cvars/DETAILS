@@ -1,0 +1,25 @@
+           SPELL=xqf-cvars
+          SPELLX=xqf
+           CVARS=8
+         VERSION=1.0.5
+          SOURCE=$SPELLX-$VERSION+cvars$CVARS+be+ref.tar.gz
+SOURCE_DIRECTORY=$BUILD_DIRECTORY/$SPELLX-$VERSION+cvars$CVARS+be+ref
+# http://www0.org/xqf/xqf-1.0.5+cvars8+be+ref.tar.gz
+	SOURCE_URL[0]=http://www0.org/xqf/$SOURCE
+#   SOURCE_URL[0]=$SOURCEFORGE_URL/$SPELL/$SOURCE
+     SOURCE_HASH=sha512:8b791469bf90d2de5323675f14a775e681d8235356420ac3d556b9ad8ac4289e268037eafd752881a9f1c973f8ae039995ef5f2fde1eec69428a30d5066b5567 
+        WEB_SITE=http://www.linuxgames.com/xqf
+         ENTERED=20020320
+      LICENSE[0]=GPL
+           SHORT="GameSpy-like app for GNU/Linux"
+cat << EOF
+XQF is a Quake, Quake World, Quake2, Quake3, Quake4, Doom3, Nexuiz, Jedi
+Academy (wine), America's Army 2.1, Half-Life, Half-Life STEAM, Half-Life 2,
+Unreal, Unreal Tournament 2003, Unreal Tournament 2004, Hexen II, HexenWorld,
+Kingpin, Jedi Knight: Jedi Academy, Shogo: Mobile Armor Division, Sin,
+Starsiege: Tribes, Tribes 2, Soldier of Fortune, Soldier of Fortune 2, BFRIS,
+Return to Castle Wolfestein, Descent 3, Star Trek: Elite Force, All Seeing Eye,
+Savage, FarCry, Rune, Medal of Honor: Allied Assault, Call of Duty, Postal 2,
+Battlefield 1942, and Ghost Recon server browser and launcher for UNIX/X11
+which supports the GameSpy2 protocol.  Its a front end to QStat.
+EOF
