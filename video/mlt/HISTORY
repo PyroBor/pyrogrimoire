@@ -1,0 +1,125 @@
+2010-11-11 Bor Kraljič <pyrobor@ver.si>
+	* DEPENDS: added optional_depends to python to build bindings
+	* INSTALL: install python bindings
+
+2010-09-15 Ladislav Hagara <hgr@vabo.cz>
+	* DETAILS: 0.5.10
+
+2010-06-21 Treeve Jelbert <treeve@sourcemage.org>
+	* DETAILS: version 0.5.6
+
+2010-05-01 Treeve Jelbert <treeve@sourcemage.org>
+	* DETAILS: version 0.5.4
+
+2010-03-15 Bor Kraljič <pyrobor@ver.si>
+	* DETAILS: updated spell to 0.5.2
+
+2010-02-17 Treeve Jelbert <treeve@sourcemage.org>
+	* DETAILS: version 0.5.0
+
+2009-12-11 Bor Kraljič <pyrobor@ver.si>
+	* CONFLICTS: chmod +x
+	* DETAILS: updated spell to 0.4.10
+
+2009-12-08 Ladislav Hagara <hgr@vabo.cz>
+	* DETAILS: 0.4.8
+
+2009-10-09 Julien "_kaze_" ROZO <julien@rozo.org>
+	* DETAILS: updated version to 0.4.6
+
+2009-07-01 Treeve Jelbert <treeve@sourcemage.org>
+	* DETAILS: version 0.4.4
+
+2009-05-31 Treeve Jelbert <treeve@sourcemage.org>
+	* DETAILS: version 0.4.2
+	* PRE_BUILD: deleted
+
+2009-05-30 Treeve Jelbert <treeve@sourcemage.org>
+	* DETAILS: version 0.4.0
+	  svn -> git, new repo
+	* CONFLICTS: added, mlt++ in now included
+	* DEPENDS: add g++, svn -> git
+	* PREPARE: change query
+	  now uses git for repository
+	* PRE_BUILD: added, fix bad compiler flag in 0.4.0
+
+2009-04-15 Treeve Jelbert <treeve@sourcemage.org>
+	* DETAILS: version 0.3.8
+
+2009-03-16 Treeve Jelbert <treeve@sourcemage.org>
+	* DEPENDS: ffmpeg-svn -> LIBAVCODEC
+
+2009-02-03 Treeve Jelbert <treeve@sourcemage.org>
+	* DETAILS: version 0.3.6
+
+2009-01-25 Treeve Jelbert <treeve@sourcemage.org>
+	* DETAILS: version 0.3.4
+
+2008-11-13 Treeve Jelbert <treeve@sourcemage.org>
+	* CONFIGURE, BUILD: add --avformat-swscale
+	  needed for kdelive4
+
+2008-11-11 Treeve Jelbert <treeve@sourcemage.org>
+	* DETAILS: version 0.3.2
+
+2008-10-05 Treeve Jelbert <treeve@sourcemage.org>
+	* DETAILS: add FORCE_DOWNLOAD=on for svn version
+
+2008-08-06 Treeve Jelbert <treeve@sourcemage.org>
+	* DETAILS: version 0.3.0
+
+2008-06-29 Treeve Jelbert <treeve@sourcemage.org>
+	* DETAILS, DEPENDS: extra []
+
+2008-05-03 Treeve Jelbert <treeve@sourcemage.org>
+	* DETAILS: version svn
+	* DEPENDS, PREPARE: add svn support
+	* DEPENDS: LIBAVCODEC -> ffmpeg-svn
+
+2007-08-07 Treeve Jelbert <treeve@sourcemage.org>
+	* DETAILS: version 0.2.4
+	* DEPENDS: change ffmpeg-svn to LIBAVCODEC
+
+2007-04-25 Treeve Jelbert <treeve@sourcemage.org>
+	* DETAILS: version 0.2.3
+	* CONFIGURE: added, optional support for kino, kdenlive
+	* BUILD: add options
+	  fix LDFLAGS for libX11
+
+2006-06-17 Treeve Jelbert <treeve@sourcemage.org>
+	* DETAILS: use official release version 0.2.2
+	* DEPENDS: remove cvs
+	* PREPARE: delete
+
+2006-05-27 Arwed v. Merkatz <v.merkatz@gmx.net>
+	* DEPENDS: changed ffmpeg-cvs to ffmpeg-svn
+
+2006-05-25 Arwed v. Merkatz <v.merkatz@gmx.net>
+	* DETAILS: fixed SOURCE_URL, bug #12075, changes SOURCE and
+	  SOURCE_DIRECTORY to force a new checkout
+	* DEPENDS: added optional_depends on qt-x11
+	* PRE_BUILD, buildsystem.patch: removed
+	* PREPARE, DETAILS: ask if spell should auto-update and set
+	  VERSION accordingly
+
+2006-03-12 Karsten Behrmann <BearPerson@sourcemage.org>
+	* DETAILS: (automated) Add KEYWORDS
+
+2005-11-30 Seth Woolley <seth@tautology.org>
+	* DETAILS: MD5 IGNORE to SOURCE_HASH volatile
+
+2005-04-27 Arwed v. Merkatz <v.merkatz@gmx.net>
+	* configure.diff, buildsystem.patch: moved configure.diff to
+	  buildsystem.patch and added another fix
+	* BUILD, PRE_BUILD: moved patch application to PRE_BUILD
+
+2004-09-20 Arwed v. Merkatz <v.merkatz@gmx.net>
+	* BUILD, miracle_local.diff: removed patch
+
+2004-08-03 Eric Sandall <sandalle@sourcemage.org>
+	* DEPENDS: SDL renamed to sdl
+	  Formatted to Guru Handbook
+
+2004-07-31 Robin Cook <rcook@wyrms.net>
+	* Initial Spell
+
