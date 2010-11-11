@@ -1,0 +1,18 @@
+           SPELL=molsketch
+         VERSION=0.2.0helium-alpha
+          SOURCE="${SPELL}-${VERSION}.tar.gz"
+   SOURCE_URL[0]=$SOURCEFORGE_URL/${SPELL}/${SOURCE}
+     SOURCE_HASH=sha512:deab1969d7cb7358ed00777c697ca82de37383b6fa6cd0ce3eb827d6615cb0a2e4349f3bf4f12cbb385054561abee9d02b4d3e9386d9994b2492a6349e6785c0
+SOURCE_DIRECTORY="${BUILD_DIRECTORY}/${SPELL}-${VERSION}"
+        WEB_SITE="http://kde-apps.org/content/show.php/molsKetch?content=54819"
+      LICENSE[0]=GPL
+         ENTERED=20090430
+           SHORT="molsKetch is a program for drawing molecular structures"
+cat << EOF
+molsKetch is a program for drawing molecular structures, in the spirit of
+Chemsketch and xdrawchem, for all platforms supported by Qt 4. As for now
+it supports drawing a basic carbon skeleton, adding hetero atoms and charge
+and different types of bonds. The resulting structure can be exported to
+all formats supported by the OpenBabel library and can also be exported as
+SVG or bitmap. For a full overview of the features see below.
+EOF
