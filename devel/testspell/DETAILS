@@ -1,0 +1,12 @@
+           SPELL=testspell
+         VERSION=0.1
+#          SOURCE="${SPELL}-${VERSION}.tar.bz2"
+#   SOURCE_URL[0]=
+        WEB_SITE="http://www.pyrobor.si"
+      LICENSE[0]="GPL"
+         ENTERED=20091013
+        KEYWORDS="test"
+cat << EOF
+test spell
+
+EOF
