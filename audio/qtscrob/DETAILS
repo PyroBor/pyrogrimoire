@@ -1,0 +1,14 @@
+           SPELL=qtscrob
+         VERSION=0.10
+          SOURCE="${SPELL}-${VERSION}.tar.bz2"
+   SOURCE_URL[0]=$SOURCEFORGE_URL/${SPELL}/${SOURCE}
+     SOURCE_HASH=sha512:d743976ef26c4f61402187930ac2cfba71bc4d7079e1166bdb34115196c99d3e0093a4df06d4b0eda24ab4f0f6fcce840812fd2d1dff847dc905adc9a74127c5
+SOURCE_DIRECTORY="${BUILD_DIRECTORY}/${SPELL}-${VERSION}"
+        WEB_SITE="http://qtscrob.sourceforge.net/"
+      LICENSE[0]=GPLv2
+         ENTERED=20090423
+           SHORT="A tool for submitting .scrobbler.log from portable players to Last.fm."
+cat << EOF
+QTScrobbler is tool for submitting .scrobbler.log files from portable players
+to Last.fm. It currently supports players that write .scrobbler.log and iPods.
+EOF

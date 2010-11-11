@@ -1,0 +1,13 @@
+2009-10-29 Bor Kraljič <pyrobor@ver.si>
+	* DEPENDS: added depends libmtp to be nice
+
+2009-09-07 Bor Kraljic <pyrobor@ver.si>
+	* PREPARE: added, build CLI?
+	* BUILD: changed build CLI?
+	* INSTALL: changed build CLI? & sedit /local/
+	* DETAILS: updated spell to 0.10
+
+2009-04-23 Bor Kraljic <pyrobor@ver.si>
+	* DETAILS: version 0.9
+	* DEPENDS, DETAILS: spell created
+

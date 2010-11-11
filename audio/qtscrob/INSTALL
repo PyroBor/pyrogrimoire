@@ -1,0 +1,8 @@
+cd $SOURCE_DIRECTORY/src/qt	&&
+sedit "s:/local::g" Makefile &&
+make -f Makefile install &&
+if [[ $QTSCROB_CLI == y ]]; then
+	cd $SOURCE_DIRECTORY/src/cli	&&
+	sedit "s:/local::g" Makefile &&
+	make -f Makefile install
+fi
