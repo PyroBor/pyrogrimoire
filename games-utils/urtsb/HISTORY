@@ -1,0 +1,14 @@
+2010-08-30 Bor Kraljič <pyrobor@ver.si>
+	* DETAILS: Fixed SOURCE & updated spell to 0.4
+	  fixed SOURCE_DIRECTORY to be generic
+	* INSTALL: default_python_install ftw
+
+2010-08-17 Bor Kraljič <pyrobor@ver.si>
+	* INSTALL: svn version can now use default_python_install
+
+2010-08-06 Bor Kraljič <pyrobor@ver.si>
+	* PREPARE: added svn build
+
+2010-08-02 Bor Kraljič <pyrobor@ver.si>
+	* BUILD, DEPENDS, DETAILS, INSTALL: spell created
+

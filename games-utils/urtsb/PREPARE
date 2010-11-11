@@ -1,0 +1,1 @@
+config_query URTSB_SVN  "Build latest version from development tree?"  n 

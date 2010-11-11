@@ -1,0 +1,23 @@
+           SPELL=urtsb
+if [[ $URTSB_SVN == y ]]; then
+         VERSION=svn
+          SOURCE=$SPELL-$VERSION.tar.bz2
+   SOURCE_URL[0]=svn_http://urtsb.googlecode.com/svn/trunk/:$SPELL-svn
+   SOURCE_IGNORE=volatile
+  FORCE_DOWNLOAD=on
+else
+         VERSION=0.4
+          SOURCE="UrTSB-${VERSION}.tar.gz"
+   SOURCE_URL[0]=http://${SPELL}.googlecode.com/files/${SOURCE}
+     SOURCE_HASH=sha512:65faa2d4f94ff502da237b0320a26ac6bf1787f78084c302c9a86fbfebe5b72897dd1b8edcfa02ab0fc5d32cdd064b52cd72d485a11f5921db0ed8fc0aa881f8
+fi
+SOURCE_DIRECTORY="${BUILD_DIRECTORY}/${SOURCE%%.tar*}"
+        WEB_SITE="http://code.google.com/p/urtsb/"
+      LICENSE[0]="GPL"
+         ENTERED=20100802
+        KEYWORDS="urbanterror games"
+           SHORT="UrTSB is a Game Server Browser for the FPS Urban Terror"
+cat << EOF
+UrTSB is a Game Server Browser for the FPS Urban Terror (
+http://www.urbanterror.info ) targeted to run on linux.
+EOF
