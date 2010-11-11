@@ -1,0 +1,19 @@
+2010-10-25 Bor Kraljič <pyrobor@ver.si>
+	* CONFLICTS: added, bla bla!
+	  changed blabla
+	* init.d/vboxdrv: added, bla bla!
+	* DETAILS: Fixed SOURCE_URL[0]
+	  updated spell to 3.2.10
+	* INSTALL: changed blabla
+
+2009-10-05 Bor Kraljič <pyrobor@ver.si>
+	* VBox.sh: added, bla bla!
+	* virtualbox: added, bla bla!
+	  removed, no longer needed
+	  changed blabla
+	* Copy it back to the grimoire: changed blabla
+	* DETAILS: changed blabla
+	* BUILD: changed blabla
+	* INSTALL: changed blabla
+	* BUILD, DEPENDS, DETAILS, INSTALL: spell created
+

@@ -1,0 +1,6 @@
+cd ${INSTALL_ROOT} &&
+yes | sh $SOURCE_CACHE/$SOURCE
+#rm -f /etc/init.d/vboxdrv &&
+#cd /opt/VirtualBox/ &&
+#rm VBox.sh &&
+#cp $SCRIPT_DIRECTORY/VBox.sh /opt/VirtualBox/

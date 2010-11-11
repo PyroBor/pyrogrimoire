@@ -1,0 +1,21 @@
+           SPELL=virtualbox-bin
+if [[ ${SMGL_COMPAT_ARCHS[1]} == x86_64 ]];then
+         VERSION=3.2.10
+          SOURCE="VirtualBox-${VERSION}-66896-Linux_amd64.run"
+   SOURCE_URL[0]=http://download.virtualbox.org/virtualbox/${VERSION}/${SOURCE}
+     SOURCE_HASH=sha512:34434e81bd24e25881180603dd8bd1316fe051321d0ab2e8ae080d15010f0c8a9908962cca3ca1dc9faad5534eecc7316a23e7829f43a497edf1eb9b1e8034c2
+else
+         VERSION=3.2.10
+          SOURCE="VirtualBox-${VERSION}-66896-Linux_x86.run"
+   SOURCE_URL[0]=http://download.virtualbox.org/virtualbox/${VERSION}/${SOURCE}
+     SOURCE_HASH=sha512:494cd88bb0d49e4177860ea6cfc3a68ecbbc600c63b8bf0840e2acbe57737c85d65431eeaaaa245d2399439ed320f3d70ab3c074cf1afcc31928c89c2a6eb5d9
+fi
+SOURCE_DIRECTORY="${BUILD_DIRECTORY}/${SPELL}-${VERSION}"
+        WEB_SITE="http://www.virtualbox.org"
+      LICENSE[0]="PUEL"
+         ENTERED=20091005
+        KEYWORDS=""
+           SHORT="a general-purpose full virtualizer for x86 hardware"
+cat << EOF
+VirtualBox is a general-purpose full virtualizer for x86 hardware.
+EOF
