@@ -1,0 +1,25 @@
+#---
+## grimoire from Bor Kraljič <pyrobor[at]ver[dot]si>
+#---
+
+Core scripts like FUNCTIONS are copied from test grimoire. That way
+writting of the spells is simpler. I try to keep the last version of those.
+
+Spells that are suppose to be working:
+
+* qmmp http://qmmp.ylsoftware.com/ 
+* urtsb http://code.google.com/p/urtsb/
+* qtscrob http://qtscrob.sourceforge.net/
+* mlt  - only small modifications to the one in test grimoire
+* python-geoip: http://www.maxmind.com/app/python
+
+Maybe working:
+
+* frei0r-plugins: http://www.piksel.org/frei0r
+* openshot: http://www.openshot.org/
+
+Other spells are probably not working. 
+
+If you have any spells in your local grimoire I encurage you to somehow submit it.
+This way could other benefit from it too. 
+(Didn't explore the github to that level but I am sure there is a simple way) 
