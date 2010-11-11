@@ -18,8 +18,11 @@ Maybe working:
 * frei0r-plugins: http://www.piksel.org/frei0r
 * openshot: http://www.openshot.org/
 
-Other spells are probably not working. 
+Other spells are probably not working.
 
 If you have any spells in your local grimoire I encurage you to somehow submit it.
-This way could other benefit from it too. 
-(Didn't explore the github to that level but I am sure there is a simple way) 
+This way could other benefit from it too.
+(Didn't explore the github to that level but I am sure there is a simple way)
+
+To add it simply use scribe:
+scribe add pyrogrimoire from git://github.com/PyroBor/pyrogrimoire.git
