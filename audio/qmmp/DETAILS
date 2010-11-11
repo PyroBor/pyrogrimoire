@@ -1,0 +1,15 @@
+           SPELL=qmmp
+         VERSION=0.4.3
+          SOURCE="${SPELL}-${VERSION}.tar.bz2"
+   SOURCE_URL[0]=http://${SPELL}.ylsoftware.com/files/${SOURCE}
+     SOURCE_HASH=sha512:d87baac91f4191d0ae0e3d67e848a497063e8cbbe3ad0ac3525ede9d1a2d38f9dbb0bd11c143926e5ffef17e86dab7f9d9445c4faa7d6a135a345f79e6e73d19
+SOURCE_DIRECTORY="${BUILD_DIRECTORY}/${SPELL}-${VERSION}"
+        WEB_SITE="http://qmmp.ylsoftware.com/"
+      LICENSE[0]="GPL"
+         ENTERED=20100211
+        KEYWORDS=""
+           SHORT="qmmp mp3 player"
+cat << EOF
+This program is an audio-player, written with help of Qt library. The user
+interface is similar to winamp or xmms.
+EOF
