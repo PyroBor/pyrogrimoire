@@ -1,4 +1,5 @@
 2010-11-11 Bor Kraljič <pyrobor@ver.si>
 	* added ChangeLog
+	* video/openshot: OpenShot Video Editor is a non-linear video editor
 	* video/mlt: copied from test and added option to install python bindings
 	* video/frei0r-plugins: a minimalistic plugin API for video effects
