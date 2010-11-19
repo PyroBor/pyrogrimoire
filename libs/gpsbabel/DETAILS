@@ -1,0 +1,23 @@
+           SPELL=gpsbabel
+         VERSION=1.4.1
+          SOURCE="${SPELL}-${VERSION}.tar.gz"
+   SOURCE_URL[0]=http://archlinux-stuff.googlecode.com/files/${SOURCE}
+     SOURCE_HASH=sha512:22d3381519108417bf873fc8457c120e93686de864c15b5636e5ad7f2a36a4f94adb436a479c7322bfeccac23e805088d03d0960d92470b83fddcaf30331112c
+SOURCE_DIRECTORY="${BUILD_DIRECTORY}/${SPELL}-${VERSION}"
+        WEB_SITE="http://www.gpsbabel.org"
+      LICENSE[0]="GPL"
+         ENTERED=20101119
+        KEYWORDS="Utilities, Scientific/Engineering, Geographical
+Major feature enhancements
+Major feature enhancements
+Major feature enhancements
+Major feature enhancements
+Major feature enhancements"
+           SHORT="A conversion and upload/download tool for waypoint, track, and route data."
+cat << EOF
+GPSBabel converts waypoint data between about fifty file formats, including
+Magellan and Garmin serial, Garmin USB, Mapsource, Mapsend, Streets & Trips,
+Delorme, National Geographic, many PDA formats, and many others. It is
+endian and word-size safe, includes a GUI, and runs on a variety of operating
+systems. It also supports Groundspeak GPX extensions for geocaching.
+EOF

@@ -1,3 +1,6 @@
+2010-11-19 Bor Kraljič <pyrobor@ver.si>
+	* libs/gpsbabel: Reads, writes, and manipulates GPS waypoints in a variety of formats
+
 2010-11-11 Bor Kraljič <pyrobor@ver.si>
 	* added ChangeLog
 	* README: added. so there is automaticly description on github
