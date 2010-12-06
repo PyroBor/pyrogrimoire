@@ -1,11 +1,10 @@
             SPELL=urt-mitsubishi
           VERSION=1803-061210
-           SOURCE=${SPELL}-svn.tar.bz2
+           SOURCE=ioq3-${VERSION%%-*}.tar.bz2
           SOURCE2=ioq3-${VERSION%%-*}-urt-${VERSION##*-}-git.tar.lzma
- SOURCE_DIRECTORY=${BUILD_DIRECTORY}/${SPELL}-svn
+ SOURCE_DIRECTORY=${BUILD_DIRECTORY}/ioq-${VERSION%%-*}
 SOURCE2_DIRECTORY="${BUILD_DIRECTORY}/ioq3-${VERSION%%-*}-urt-${VERSION##*-}-git"
-    SOURCE_URL[0]=svn://svn.icculus.org/quake3/trunk:${SPELL}-svn:${VERSION%%-*}
-FORCE_DOWNLOAD[1]=on
+    SOURCE_URL[0]=svn://svn.icculus.org/quake3/trunk:ioq3-${VERSION%%-*}:${VERSION%%-*}
     SOURCE_IGNORE=volatile
    SOURCE2_URL[0]=http://www.www0.org/urt/$SOURCE2
    SOURCE2_IGNORE=volatile
