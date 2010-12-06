@@ -1,0 +1,21 @@
+           SPELL=ggl
+         VERSION=0.11.2
+          SOURCE="google-gadgets-for-linux-${VERSION}.tar.bz2"
+   SOURCE_URL[0]=http://google-gadgets-for-linux.googlecode.com/files/${SOURCE}
+     SOURCE_HASH=sha512:fff017b925a036b540d15a66a1c513bc8dd63efae0c89bb5f190c86d23c1426fca25c0ef95d6cd0538a8b4819ad8e9142c9685ef9eb173ec62a7d76e063a7a1b
+SOURCE_DIRECTORY="${BUILD_DIRECTORY}/google-gadgets-for-linux-${VERSION}"
+        WEB_SITE="http://code.google.com/p/google-gadgets-for-linux/"
+      LICENSE[0]="Apache 2.0"
+         ENTERED=20101204
+        KEYWORDS="Software Development, User Interfaces, Libraries, Desktop Environment"
+           SHORT="A platform for running Google Gadgets under Linux."
+cat << EOF
+Google Gadgets for Linux provides a platform for running Google Gadgets under
+Linux, catering to the unique needs of Linux users. It's compatible with
+the gadgets written for Google Desktop for Windows as well as the Universal
+Gadgets on iGoogle. There are two main components to the application: one
+is a common gadget library responsible for running and presenting a gadget,
+and the other is a host program that allows the user to choose gadgets and run
+them on the desktop. Currently it has hosts written for GTK+ and Qt, with the
+GTK+ host offering a sidebar similiar to that of Google Desktop for Windows.
+EOF
