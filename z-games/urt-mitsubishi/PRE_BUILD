@@ -1,0 +1,8 @@
+default_pre_build &&
+cd $BUILD_DIRECTORY &&
+mkdir -p $SOURCE2_DIRECTORY &&
+cd $SOURCE2_DIRECTORY &&
+unlzma -c -d $SOURCE_CACHE/$SOURCE2 | tar x &&
+cd $SOURCE_DIRECTORY &&
+patch -p2 < $SOURCE2_DIRECTORY/ioq3-${VERSION%%-*}-urt-${VERSION##*-}-git.patch
+#true

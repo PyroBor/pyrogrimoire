@@ -1,0 +1,1 @@
+config_query URT_DEBUG "Compile with debug symbols?" n

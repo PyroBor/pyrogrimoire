@@ -1,0 +1,20 @@
+INSTALL_DIRECTORY=$INSTALL_ROOT/opt/urbanterror &&
+cd $SOURCE_DIRECTORY &&
+if [[ $URT_DEBUG == y ]]; then
+cp -v build/debug-linux-x86_64/ioquake3.x86_64 $INSTALL_DIRECTORY/ioq3-urt
+else
+cp -v build/release-linux-x86_64/ioquake3.x86_64 $INSTALL_DIRECTORY/ioq3-urt
+fi &&
+
+cd $SOURCE2_DIRECTORY &&
+cp -r -v q3ut4/* $INSTALL_DIRECTORY/q3ut4 && 
+cd $INSTALL_DIRECTORY &&
+
+chown root:games $INSTALL_DIRECTORY/q3ut4/ &&
+chown -R root:games $INSTALL_DIRECTORY/q3ut4/glsl &&
+chown -R root:games $INSTALL_DIRECTORY/q3ut4/scripts &&
+chown -R root:games $INSTALL_DIRECTORY/q3ut4/textures &&
+chown root:games $INSTALL_DIRECTORY/ &&
+chown root:games $INSTALL_DIRECTORY/ioq3-urt &&
+chmod 750 ioq3-urt
+
