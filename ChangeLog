@@ -1,3 +1,6 @@
+2010-12-06 Bor Kraljič <pyrobor@ver.si>
+	* FUNCTIONS: added find_and_scam from games grimoire
+
 2010-11-19 Bor Kraljič <pyrobor@ver.si>
 	* libs/gpsbabel: Reads, writes, and manipulates GPS waypoints in a variety of formats
 

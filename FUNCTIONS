@@ -718,4 +718,18 @@ if spell_ok $1 &&
 fi
 }
 
+
+#---
+## @Synopsis A function to find all dirs and files and set them to
+## @Synopsis proper permissions.
+#---
+
+function find_and_scam() {
+  find ./ -type d -print0 | xargs -r -0 -n 1 chmod 0750
+  find ./ -type d -print0 | xargs -r -0 -n 1 chown root:games
+  find ./ -type f -print0 | xargs -r -0 -n 1 chmod 0640
+  find ./ -type f -print0 | xargs -r -0 -n 1 chown root:games
+}
+
+
 . $GRIMOIRE/glselect.function
