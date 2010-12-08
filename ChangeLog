@@ -1,5 +1,7 @@
 2010-12-07 Bor Kraljič <pyrobor@ver.si>
 	* kde4-stuff: section added with kde4 functions...
+	* kde4-stuff/plasmoid-todolist: new spell
+
 2010-12-06 Bor Kraljič <pyrobor@ver.si>
 	* FUNCTIONS: added find_and_scam from games grimoire
 	* z-games/urt-mitsubishi: costum build of UrbanTerror client

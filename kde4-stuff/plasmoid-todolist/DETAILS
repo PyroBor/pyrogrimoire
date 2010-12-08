@@ -1,0 +1,14 @@
+           SPELL=plasmoid-todolist
+         VERSION=0.4
+          SOURCE="90706-todo_plasmoid-${VERSION}.tar.bz"
+   SOURCE_URL[0]=http://kde-look.org/CONTENT/content-files/${SOURCE}
+     SOURCE_HASH=sha512:5a3c822db25387b5334d880e4cba8b3693f8717a0b0679aaac269a986dfcae72bc3115ddde1d75f5f0327334c99dc9828f03fa4f34f10c5ee98a182ba56dc39a
+SOURCE_DIRECTORY="${BUILD_DIRECTORY}/todo_plasmoid"
+        WEB_SITE="http://kde-look.org/content/show.php/todo+list?content=90706"
+      LICENSE[0]="GPL"
+         ENTERED=20101208
+        KEYWORDS=""
+           SHORT="Plasmoid that shows KOrganizer 'todo' list"
+cat << EOF
+Plasmoid that shows KOrganizer 'todo' list
+EOF
