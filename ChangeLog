@@ -1,5 +1,6 @@
 2010-12-13 Bor Kraljič <pyrobor@ver.si>
 	* video/frei0r-plugins: removed. Is now in test grimoire
+	* utils/qtemu: added QtEmu is a graphical user interface for QEMU
 
 2010-12-07 Bor Kraljič <pyrobor@ver.si>
 	* kde4-stuff: section added with kde4 functions...
