@@ -1,5 +1,5 @@
             SPELL=urt-mitsubishi
-          VERSION=1803-061210
+          VERSION=1803-091210
            SOURCE=ioq3-${VERSION%%-*}.tar.bz2
           SOURCE2=ioq3-${VERSION%%-*}-urt-${VERSION##*-}-git.tar.lzma
  SOURCE_DIRECTORY=${BUILD_DIRECTORY}/ioq3-${VERSION%%-*}
