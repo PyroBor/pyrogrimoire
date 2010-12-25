@@ -3,5 +3,4 @@ depends OPENGL &&
 depends SVN &&
 depends curl &&
 depends urbanterror-bin &&
-depends openal-soft &&
 depends LZMA

@@ -4,5 +4,7 @@ mkdir -p $SOURCE2_DIRECTORY &&
 cd $SOURCE2_DIRECTORY &&
 unlzma -c -d $SOURCE_CACHE/$SOURCE2 | tar x &&
 cd $SOURCE_DIRECTORY &&
-patch -p2 < $SOURCE2_DIRECTORY/ioq3-${VERSION%%-*}-urt-${VERSION##*-}-git.patch
+patch -p2 < $SOURCE2_DIRECTORY/ioq3-${VERSION%%-*}-urt-${VERSION##*-}-git.patch &&
+sedit "s/USE_OPENAL=1/USE_OPENAL=0/" Makefile &&
+sedit "s/USE_FREETYPE=1/USE_FREETYPE=0/" Makefile 
 #true
