@@ -1,0 +1,19 @@
+           SPELL=bkchem
+         VERSION=0.13.0
+          SOURCE="${SPELL}-${VERSION}.tar.gz"
+   SOURCE_URL[0]=http://${SPELL}.zirael.org/download/${SOURCE}
+     SOURCE_HASH=sha512:4f115196344dcf0d234f2afa84096026207f5d1a44578ce2d68b71b7f549728e0bc66edcc02035f8c8f0bf3a9341e73806a7acd0dd17f85184894a852efacf6e
+SOURCE_DIRECTORY="${BUILD_DIRECTORY}/${SPELL}-${VERSION}"
+        WEB_SITE="http://bkchem.zirael.org/index.html"
+      LICENSE[0]="GPL"
+         ENTERED=20101222
+        KEYWORDS="Scientific/Engineering, Chemistry
+Preview, major update
+Minor feature enhancements
+Minor feature enhancements
+Major bugfixes
+Major bugfixes"
+           SHORT="A chemical drawing program."
+cat << EOF
+BKChem is a chemical drawing program.
+EOF
