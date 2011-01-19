@@ -1,3 +1,6 @@
+2010-01-19 Bor Kraljič <pyrobor@ver.si>
+   * utils/pdfgrep: new spell. Pdfgrep is a tool to search text in PDF files.
+
 2010-12-13 Bor Kraljič <pyrobor@ver.si>
 	* video/frei0r-plugins: removed. Is now in test grimoire
 	* utils/qtemu: added QtEmu is a graphical user interface for QEMU
