@@ -1,6 +1,7 @@
 2010-02-09 Bor Kraljič <pyrobor@ver.si>
 	* audio/clementine: new spell. modern music player and library organiser
 	* libs/python-geoip: removed. it is now in test as geoip-python
+	* README: updated list of spells
 
 2010-01-19 Bor Kraljič <pyrobor@ver.si>
 	* utils/pdfgrep: new spell. Pdfgrep is a tool to search text in PDF files.
