@@ -1,0 +1,18 @@
+           SPELL=clementine
+         VERSION=0.6
+          SOURCE="${SPELL}-${VERSION}.tar.gz"
+   SOURCE_URL[0]=http://${SPELL}-player.googlecode.com/files/${SOURCE}
+     SOURCE_HASH=sha512:40affb3f62dcf0065ddd329fdb49b14d4c46de649c4eb0c29c8ad3437ae957aa61b4fb9965eb3e034e7a8eb5ad583f159b94320ea02618a95a2a6ce434f42a7e
+SOURCE_DIRECTORY="${BUILD_DIRECTORY}/${SPELL}-${VERSION}"
+        WEB_SITE="http://code.google.com/p/clementine-player/"
+      LICENSE[0]="GPL"
+         ENTERED=20110209
+        KEYWORDS=""
+           SHORT="Clementine is a modern music player and library organiser"
+cat << EOF
+Clementine is a modern music player and library organiser.
+
+Clementine is a multiplatform music player. It is inspired by Amarok 1.4,
+focusing on a fast and easy-to-use interface for searching and playing
+your music.
+EOF

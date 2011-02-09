@@ -1,0 +1,14 @@
+depends qt4 &&
+depends boost &&
+depends liblastfm &&
+depends taglib &&
+depends cmake &&
+depends glew && 
+depends gst-plugins-base &&
+optional_depends gst-plugins-ugly    ""  "" "for playing mp3 files" &&
+optional_depends libgpod  ""  "" "for iPod support" &&
+optional_depends libmtp   ""  "" "for MTP support" &&
+optional_depends pyqt4    ""  "" "for python scripting" &&
+optional_depends libarchive  "" "" \
+               "for loading scripts from package files" &&
+optional_depends libtunepimp "" "" "for MusicBrainz tagging" 
