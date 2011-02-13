@@ -13,6 +13,8 @@ writting of the spells is simpler. I try to keep the last version of those.
 * mlt  - only small modifications to the one in test grimoire
 * clementine - audio player similar to amarok1.4 (http://code.google.com/p/clementine-player/)
 * pdfgrep - tool to search text in PDF files (http://pdfgrep.sourceforge.net/)
+* gpodder -  simple, usable podcast consumption (http://gpodder.org/)
+* mygpoclient - A gpodder.net Client Library (http://thp.io/2010/mygpoclient/)
 
 == Maybe broken ==
 
