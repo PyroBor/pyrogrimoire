@@ -1,0 +1,20 @@
+           SPELL=gpodder
+         VERSION=2.12
+          SOURCE="${SPELL}-${VERSION}.tar.gz"
+   SOURCE_URL[0]=http://download.berlios.de/${SPELL}/${SOURCE}
+     SOURCE_HASH=sha512:1cd67f3a9489f51b2a80c24cd4a15902356d6a1a6d1f0e74271c96eb9577e1798d029edc7e1a272043b2840a5f1debbd295eccf166c20a3b27c96aae500eef6a
+SOURCE_DIRECTORY="${BUILD_DIRECTORY}/${SPELL}-${VERSION}"
+        WEB_SITE="http://gpodder.org/"
+      LICENSE[0]="GPL"
+         ENTERED=20110209
+        KEYWORDS=""
+           SHORT="simple, usable podcast consumption"
+cat << EOF
+gPodder — simple, usable podcast consumption
+
+Download free audio and video content ("podcasts") from the Internet and
+watch it on your computer or on the go.
+
+Available in most Linux distributions, FreeBSD, for Windows, on Nokia Internet
+Tablets (N800 and N810) and on the Nokia N900 mobile computer.
+EOF
