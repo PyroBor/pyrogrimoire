@@ -1,0 +1,21 @@
+           SPELL=lightspark
+         VERSION=0.4.5.2
+          SOURCE="${SPELL}-${VERSION}.tar.gz"
+   SOURCE_URL[0]=http://launchpad.net/${SPELL}/trunk/${SPELL}-0.4.5/+download/${SOURCE}
+     SOURCE_HASH=sha512:9ec2a48fee77d59363918788a46e5796d64f4cd62a5caa905ff57cad0d25be04f288379a6051110970a3c0d17d48a32104ee98ac67beb76a37ac502b55b5e0a7
+SOURCE_DIRECTORY="${BUILD_DIRECTORY}/${SPELL}-${VERSION}"
+        WEB_SITE="http://sourceforge.net/apps/trac/lightspark"
+      LICENSE[0]="GPL"
+         ENTERED=20110213
+        KEYWORDS=""
+           SHORT="Lightspark is a modern, free, open-source flash player implementation"
+cat << EOF
+Lightspark is a modern, free, open-source flash player
+implementation. Lightspark features:
+
+* JIT compilation of Actionscript to native x86 bytecode using LLVM *
+Hardware accelerated rendering using OpenGL Shaders (GLSL) * Very good and
+robust support for current-generation Actionscript 3 * A new, clean, codebase
+exploiting multithreading and optimized for modern hardware. Designed from
+scratch after the official Flash documentation was released.
+EOF
