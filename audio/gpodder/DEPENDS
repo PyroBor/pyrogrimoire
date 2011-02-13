@@ -1,0 +1,3 @@
+depends feedparser &&
+depends mygpoclient && 
+depends dbus-python

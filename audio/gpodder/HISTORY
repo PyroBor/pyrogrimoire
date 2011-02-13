@@ -1,3 +1,7 @@
+2011-02-13 Bor Kraljič <pyrobor@ver.si>
+	* DEPENDS: added, there are few dependencies
+	* BUILD: added, use default_build_python
+
 2011-02-09 Bor Kraljič <pyrobor@ver.si>
 	* DETAILS: spell created
 
