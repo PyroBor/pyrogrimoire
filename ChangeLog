@@ -1,6 +1,7 @@
 2010-02-13 Bor Kraljič <pyrobor@ver.si>
 	* http/lightspark: new spell. a modern, free, open-source flash player implementation
-	* audio/gpodder: ner spell. simple, usable podcast consumption
+	* audio/gpodder: new spell. simple, usable podcast consumption
+	* audio/mygpoclient: new spell. A gpodder.net Client Library
 
 2010-02-09 Bor Kraljič <pyrobor@ver.si>
 	* audio/clementine: new spell. modern music player and library organiser

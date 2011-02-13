@@ -1,0 +1,16 @@
+           SPELL=mygpoclient
+         VERSION=1.5
+          SOURCE="${SPELL}-${VERSION}.tar.gz"
+   SOURCE_URL[0]=http://thp.io/2010/${SPELL}/${SOURCE}
+     SOURCE_HASH=sha512:5cd17af5b0bbe38c2f6d40775022e619362cfd2fafb2500856c0239dc237ca34e8a274b888c96913c81ac90caf6ffaa3f31e40a0290fee20d6c3b5ff0e1fcf12
+SOURCE_DIRECTORY="${BUILD_DIRECTORY}/${SPELL}-${VERSION}"
+        WEB_SITE="http://thp.io/2010/mygpoclient/"
+      LICENSE[0]="GPL"
+         ENTERED=20110213
+        KEYWORDS=""
+           SHORT="mygpoclient - A gpodder.net Client Library"
+cat << EOF
+The mygpoclient library allows developers to utilize a Pythonic interface
+to the gpodder.net web services. This page provides the public place for
+downloading source releases of the library.
+EOF
