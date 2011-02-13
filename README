@@ -1,43 +1,4 @@
 #---
 ## grimoire from Bor Kraljič <pyrobor[at]ver[dot]si>
+## website: https://github.com/PyroBor/pyrogrimoire/wiki
 #---
-
-Core scripts like FUNCTIONS are copied from test grimoire. That way
-writting of the spells is simpler. I try to keep the last version of those.
-
-== Spells that are suppose to be working ==
-
-* qmmp - Qt-based Multimedia Player (http://qmmp.ylsoftware.com/)
-* urtsb - Game Server Browser for the FPS Urban Terror (http://code.google.com/p/urtsb/)
-* qtscrob - QTScrobbler to last.fm (http://qtscrob.sourceforge.net/)
-* mlt  - only small modifications to the one in test grimoire
-* clementine - audio player similar to amarok1.4 (http://code.google.com/p/clementine-player/)
-* pdfgrep - tool to search text in PDF files (http://pdfgrep.sourceforge.net/)
-* gpodder -  simple, usable podcast consumption (http://gpodder.org/)
-* mygpoclient - A gpodder.net Client Library (http://thp.io/2010/mygpoclient/)
-
-== Maybe broken ==
-
-* ggl - google gadgets for Linux (http://code.google.com/p/google-gadgets-for-linux/)
-* qtemu - QtEmu is a graphical user interface for QEMU (http://qtemu.org/)
-* openshot: http://www.openshot.org/
-* gpsbabel: http://www.gpsbabel.org/
-* urt-mitsubishi - Optimized executable for UrT (http://www.www0.org/w/Optimized_executable%3b_builds_of_ioq3_engine_for_urt)
-* molsketch - program for drawing molecular structures (http://kde-apps.org/content/show.php/molsKetch?content=54819)
-* bkchem -  A chemical drawing program (http://bkchem.zirael.org/index.html)
-* axel - A light and advanced downloader for the Unix console (http://freshmeat.net/projects/axel/)
-* lightspark - a modern, free, open-source flash player implementation (http://sourceforge.net/apps/trac/lightspark)
-
-== not working ==
-
-* virtualbox-bin - virtualbox (not OSE version) (http://www.virtualbox.org/)
-* testspell - simple spell for testing that doesn't install anything
-
-Other spells are probably not working.
-
-If you have any spells in your local grimoire I encurage you to somehow submit it.
-This way could other benefit from it too.
-(Didn't explore the github to that level but I am sure there is a simple way)
-
-To add it simply use scribe:
-scribe add pyrogrimoire from git://github.com/PyroBor/pyrogrimoire.git
