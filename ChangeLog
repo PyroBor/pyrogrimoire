@@ -1,3 +1,6 @@
+2010-02-27 Bor Kraljič <pyrobor@ver.si>
+	* video/mlt: removed. Changes are now in test grimoire
+
 2010-02-13 Bor Kraljič <pyrobor@ver.si>
 	* http/lightspark: new spell. a modern, free, open-source flash player implementation
 	* audio/gpodder: new spell. simple, usable podcast consumption

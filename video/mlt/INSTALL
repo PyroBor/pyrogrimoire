@@ -1,9 +1,0 @@
-default_install &&
-if is_depends_enabled $SPELL python; then
-  PYTHON_VER=$(installed_version python) &&
-  # swig install
-  cd src/swig/python &&
-  install -m755 mlt.py $INSTALL_ROOT/usr/lib/python${PYTHON_VER:0:3}/ &&
-  install -m755 _mlt.so $INSTALL_ROOT/usr/lib/python${PYTHON_VER:0:3}/ &&
-  install -m755 mlt_wrap.o $INSTALL_ROOT/usr/lib/python${PYTHON_VER:0:3}/ 
-fi
