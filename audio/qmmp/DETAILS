@@ -1,8 +1,8 @@
            SPELL=qmmp
-         VERSION=0.4.5
+         VERSION=0.5.0
           SOURCE="${SPELL}-${VERSION}.tar.bz2"
    SOURCE_URL[0]=http://${SPELL}.ylsoftware.com/files/${SOURCE}
-     SOURCE_HASH=sha512:fb6b320c0b548ef955e1565d8bc42095bf71800f24d7d2d1caac271d7274b1d6a25c1e0e3cdfa00b35d31b603f100ab4031ab1a4e459ce47f53cb1c5159baf9b
+     SOURCE_HASH=sha512:efe7e12e37369a44c86ad8939d0a88e727ed90c63f2eb69012d11b627f06ce6ce5a18c439e94dbba781475968b044a551d010151864ef90b851d2401758064cc
 SOURCE_DIRECTORY="${BUILD_DIRECTORY}/${SPELL}-${VERSION}"
         WEB_SITE="http://qmmp.ylsoftware.com/"
       LICENSE[0]="GPL"
