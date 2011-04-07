@@ -1,0 +1,16 @@
+           SPELL=usbmuxd
+         VERSION=1.0.7
+          SOURCE="${SPELL}-${VERSION}.tar.bz2"
+   SOURCE_URL[0]=http://marcansoft.com/uploads/${SPELL}/${SOURCE}
+     SOURCE_HASH=sha512:4dde8ff5793bd0c9a1f8ce3800c76e89c0e76ef2950176b06055194e92a4f9c07e79bb762fb8b29505f32c0534859cef6e3ec604a371d4c917baa5d01a80c8d1
+SOURCE_DIRECTORY="${BUILD_DIRECTORY}/${SPELL}-${VERSION}"
+        WEB_SITE="http://marcansoft.com/blog/iphonelinux/usbmuxd/"
+      LICENSE[0]="GPL"
+         ENTERED=20110407
+        KEYWORDS=""
+           SHORT="USB Multiplex Daemon"
+cat << EOF
+usbmuxd: USB Multiplex Daemon. This bit of software is in charge of talking
+to your iPhone or iPod Touch over USB and coordinating access to its services
+by other applications.
+EOF

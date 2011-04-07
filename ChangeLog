@@ -1,3 +1,6 @@
+2010-04-07 Bor Kraljič <pyrobor@ver.si>
+	* devel/usbmuxd: new spell. USB Multiplex Daemon
+
 2010-02-27 Bor Kraljič <pyrobor@ver.si>
 	* video/mlt: removed. Changes are now in test grimoire
 	* video/openshot: removed. It is now in test grimoire
