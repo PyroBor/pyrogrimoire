@@ -1,8 +1,8 @@
            SPELL=clementine
-         VERSION=0.7
+         VERSION=0.7.1
           SOURCE="${SPELL}-${VERSION}.tar.gz"
    SOURCE_URL[0]=http://${SPELL}-player.googlecode.com/files/${SOURCE}
-     SOURCE_HASH=sha512:580477ed06dc5c9d4b3b44aa6c0ad0115a21ae4c9c2ee126a11b83689b9dff8230072e09c67f07bea380756904f7c538734ec185224204c1e313e976a72450bb
+     SOURCE_HASH=sha512:199271da318a4139149ca24f97110a7b7da7790e9b2ae4b5e132a67c5cc5d220b95fc35deef07d442fd4c99449cfc3c27a723f5aa276b7fbf97b31ad7f8cc783
 SOURCE_DIRECTORY="${BUILD_DIRECTORY}/${SPELL}-${VERSION}"
         WEB_SITE="http://code.google.com/p/clementine-player/"
       LICENSE[0]="GPL"
