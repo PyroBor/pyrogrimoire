@@ -1,0 +1,23 @@
+           SPELL=libimobiledevice
+         VERSION=1.0.6
+          SOURCE="${SPELL}-${VERSION}.tar.bz2"
+   SOURCE_URL[0]=http://www.${SPELL}.org/downloads/${SOURCE}
+     SOURCE_HASH=sha512:7d6a71de30fd69a6cec4b54faacac46735459e84d5380b6a6124ab4642d920636f3d5b0aee66427d771516b1c6b9c32e71b772aa3e193258fddb88f0249713b1
+SOURCE_DIRECTORY="${BUILD_DIRECTORY}/${SPELL}-${VERSION}"
+        WEB_SITE="http://www.libimobiledevice.org/"
+      LICENSE[0]="GPL"
+         ENTERED=20110407
+        KEYWORDS=""
+           SHORT="Is a software library that talks the protocols to support iPhone and iPod Touch devices on Linux"
+cat << EOF
+bimobiledevice is a software library that talks the protocols to support
+iPhone®, iPod Touch®, iPad® and Apple TV® devices. Unlike other projects,
+it does not depend on using any existing proprietary libraries and does not
+require jailbreaking. It allows other software to easily access the device's
+filesystem, retrieve information about the device and it's internals,
+backup/restore the device, manage SpringBoard® icons, manage installed
+applications, retrieve addressbook/calendars/notes and bookmarks and
+(using libgpod) synchronize music and video to the device. The library is
+in development since August 2007 with the goal to bring support for these
+devices to the Linux Desktop.
+EOF

@@ -1,0 +1,5 @@
+depends glib2 &&
+depends gnutls &&
+depends usbmuxd &&
+depends libtasn1 &&
+depends libplist 
