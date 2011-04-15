@@ -1,8 +1,8 @@
            SPELL=gpodder
-         VERSION=2.13
+         VERSION=2.14
           SOURCE="${SPELL}-${VERSION}.tar.gz"
    SOURCE_URL[0]=http://download.berlios.de/${SPELL}/${SOURCE}
-     SOURCE_HASH=sha512:ee2a1bc0aad3a15e0b70b1cd3ad4a83b8d3a808fbac101d5ec22f0200b95abccb4ef08985a4599f33dc7bc348cd77e9d17d5b449fab0d3acb87e14710807966c
+     SOURCE_HASH=sha512:c910d7d6c2a41965146302d867266eba99d829c30186e5c8ced7e3b5b6f82b3d67516bd3fab37109ee2b2fdf8a95b6befbbf7e44eca02a0aa86c3c97fcbe33e5
 SOURCE_DIRECTORY="${BUILD_DIRECTORY}/${SPELL}-${VERSION}"
         WEB_SITE="http://gpodder.org/"
       LICENSE[0]="GPL"
