@@ -1,18 +1,13 @@
            SPELL=gpsbabel
-         VERSION=1.4.1
+         VERSION=1.4.2
           SOURCE="${SPELL}-${VERSION}.tar.gz"
    SOURCE_URL[0]=http://archlinux-stuff.googlecode.com/files/${SOURCE}
-     SOURCE_HASH=sha512:22d3381519108417bf873fc8457c120e93686de864c15b5636e5ad7f2a36a4f94adb436a479c7322bfeccac23e805088d03d0960d92470b83fddcaf30331112c
+     SOURCE_HASH=sha512:3e8ee66184786ec39c6ea978505d8bcc7f1b9a3f6c5ac11621a62d2f802be44346d05874ee1a2afe7d198bd75a0840398feefb4144eda996c2194839429053a5
 SOURCE_DIRECTORY="${BUILD_DIRECTORY}/${SPELL}-${VERSION}"
         WEB_SITE="http://www.gpsbabel.org"
       LICENSE[0]="GPL"
          ENTERED=20101119
-        KEYWORDS="Utilities, Scientific/Engineering, Geographical
-Major feature enhancements
-Major feature enhancements
-Major feature enhancements
-Major feature enhancements
-Major feature enhancements"
+        KEYWORDS="Utilities, Scientific/Engineering, Geographical"
            SHORT="A conversion and upload/download tool for waypoint, track, and route data."
 cat << EOF
 GPSBabel converts waypoint data between about fifty file formats, including
