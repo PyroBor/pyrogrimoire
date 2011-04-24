@@ -1,3 +1,6 @@
+2010-04-24 Bor Kraljič <pyrobor@ver.si>
+	* utils/gebabbel: new spell. qt4 frontend to gpsbabel
+
 2010-04-07 Bor Kraljič <pyrobor@ver.si>
 	* devel/libimobiledevice: new spell. Is a software library that talks the protocols to support iPhone and iPod Touch devices on Linux
 	* devel/usbmuxd: new spell. USB Multiplex Daemon

@@ -1,0 +1,3 @@
+default_install &&
+cd $SOURCE_DIRECTORY &&
+cp ./bin/gebabbel $INSTALL_ROOT/usr/bin/
