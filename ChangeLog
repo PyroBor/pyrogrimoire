@@ -1,3 +1,6 @@
+2010-05-25 Bor Kraljič <pyrobor@ver.si>
+	* utils/pdfgrep: removed. Now in test grimoire
+
 2010-04-24 Bor Kraljič <pyrobor@ver.si>
 	* utils/gebabbel: new spell. qt4 frontend to gpsbabel
 

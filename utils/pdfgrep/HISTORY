@@ -1,9 +1,0 @@
-2011-04-15 Bor Kraljič <pyrobor@ver.si>
-	* DETAILS: updated spell to 1.2
-
-2011-03-11 Bor Kraljič <pyrobor@ver.si>
-	* TRIGGERS: added, we should check if everything is ok after poppler upgrade
-
-2011-01-19 Bor Kraljič <pyrobor@ver.si>
-	* DEPENDS, DETAILS: spell created
-
