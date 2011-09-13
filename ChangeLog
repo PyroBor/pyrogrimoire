@@ -1,3 +1,6 @@
+2010-09-13 Bor Kraljič <pyrobor@ver.si>
+	* audio/qmmp: removed. now in test grimoire
+
 2010-05-25 Bor Kraljič <pyrobor@ver.si>
 	* utils/pdfgrep: removed. Now in test grimoire
 
