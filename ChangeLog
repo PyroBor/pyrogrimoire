@@ -1,3 +1,6 @@
+2011-10-06 Bor Kraljič <pyrobor@ver.si>
+	* devel/gnulib: added new spell to git-merge-changelog
+
 2010-09-13 Bor Kraljič <pyrobor@ver.si>
 	* audio/qmmp: removed. now in test grimoire
 
