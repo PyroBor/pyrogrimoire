@@ -1,5 +1,3 @@
 2011-10-06 Bor Kraljič <pyrobor@ver.si>
-	* PRE_BUILD, BUILD: added things to do in PRE_BUILD (avoid installing
-	  texi files)
 	* INSTALL,BUILD,CONFIGURE,DEPENDS,DETAILS: spell created
 
