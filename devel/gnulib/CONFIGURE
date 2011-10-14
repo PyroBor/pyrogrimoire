@@ -1,3 +1,0 @@
-. $GRIMOIRE/config_query_multi.function &&
-config_query_multi GNULIB_MODULES "select modules to build" \
- git-merge-changelog git-version-gen gitlog-to-changelog

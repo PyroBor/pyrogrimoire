@@ -1,5 +1,0 @@
-cd $SOURCE_DIRECTORY/build &&
-default_install
-#make install
-
-
